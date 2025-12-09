@@ -13,7 +13,7 @@ interface HeaderProps {
 export default function Header({ onMenuClick }: HeaderProps) {
   const [searchQuery, setSearchQuery] = useState('')
   const [isSearchOpen, setIsSearchOpen] = useState(false)
-  const searchRef = useRef<HTMLDivElement>(null)
+  const searchRef = useRef<HTMLFormElement>(null)
   const router = useRouter()
 
   const handleSearch = (e: React.FormEvent) => {
