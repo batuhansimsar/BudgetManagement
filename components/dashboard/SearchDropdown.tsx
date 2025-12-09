@@ -14,13 +14,14 @@ import {
   FileText,
   DollarSign
 } from 'lucide-react'
+import type { LucideProps } from 'lucide-react'
 
 interface SearchResult {
   id: string
   title: string
   description: string
   href: string
-  icon: React.ComponentType<{ size?: number; className?: string }>
+  icon: React.ComponentType<LucideProps>
   category: string
 }
 
