@@ -26,7 +26,7 @@ Tarayıcıda [http://localhost:3000](http://localhost:3000) adresini açın.
 ## 🏗️ Proje Yapısı
 
 ```
-Project/
+BudgetManagement/
 ├── app/
 │   ├── layout.tsx          # Ana layout
 │   ├── page.tsx            # Dashboard ana sayfası
